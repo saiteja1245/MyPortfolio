@@ -63,8 +63,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-portfolio-dark">Email</p>
-                  <a href="mailto:contact@aaravmehta.com" className="text-gray-600 hover:text-portfolio-primary">
-                    contact@aaravmehta.com
+                  <a href="mailto:contact@saitejabobbali.com" className="text-gray-600 hover:text-portfolio-primary">
+                    contact@saitejabobbali.com
                   </a>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const Contact = () => {
                   <p className="font-medium text-portfolio-dark">Social Media</p>
                   <div className="flex gap-2 mt-1">
                     <a 
-                      href="https://linkedin.com/" 
+                      href="https://www.linkedin.com/in/saiteja-bobbali/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-portfolio-primary"
@@ -86,7 +86,7 @@ const Contact = () => {
                     </a>
                     <span className="text-gray-400">•</span>
                     <a 
-                      href="https://github.com/" 
+                      href="https://github.com/saiteja1245" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-portfolio-primary"
@@ -95,7 +95,7 @@ const Contact = () => {
                     </a>
                     <span className="text-gray-400">•</span>
                     <a 
-                      href="https://twitter.com/" 
+                      href="https://x.com/saiteja_bobbali" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-portfolio-primary"

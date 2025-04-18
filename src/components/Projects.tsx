@@ -17,44 +17,63 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Payben – Recharge & Bill Payment Platform',
-    description: 'A comprehensive platform for recharges and bill payments with user agent functionality.',
-    image: '/placeholder.svg',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'MySQL', 'PHP', 'MIT App Inventor'],
+    title: 'Haldiram\'s - Food Delivery App',
+    description: 'A seamless platform for ordering and delivery of Haldiram\'s food, with user-friendly features for easy browsing and transaction management.',
+    image: '/Food delivery App.jpg',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node', 'MongoDB'],
     liveLink: 'https://example.com/payben',
     category: 'Web Development',
   },
   {
     id: 2,
-    title: 'Optmyzr – Shareable Dashboards',
+    title: 'Weather - Forecasting App',
     description: 'Interactive and shareable dashboards for data visualization and analysis.',
-    image: '/placeholder.svg',
-    technologies: ['Tableau', 'SAP', 'DNS', 'SSL', 'CNAME'],
-    liveLink: 'https://example.com/optmyzr',
-    category: 'Data Visualization',
+    image: '/weather.png',
+    technologies: ['HTML', 'CSS', 'JavaScript','React','Tailwind CSS'],
+    liveLink: 'https://weather-dashboard-website.vercel.app/',
+    category: 'Web Development',
   },
   {
     id: 3,
-    title: 'AI-Based Recommendation System',
-    description: 'A machine learning algorithm that provides personalized recommendations based on user behavior.',
-    image: '/placeholder.svg',
-    technologies: ['Python', 'TensorFlow', 'Flask', 'MongoDB'],
-    githubLink: 'https://github.com/',
-    category: 'Artificial Intelligence',
+    title: 'Flash Shop - Ecommerce Website',
+    description: 'A secure cloud storage solution with advanced file management capabilities.',
+    image: '/Flash Shop.png',
+    technologies: ['HTML', 'CSS3', 'React'],
+    liveLink: 'https://flash-shop-ecommerce-website.vercel.app/',
+    category: 'Web Development',
   },
   {
     id: 4,
-    title: 'Cloud-Based File Management',
-    description: 'A secure cloud storage solution with advanced file management capabilities.',
-    image: '/placeholder.svg',
-    technologies: ['AWS S3', 'Node.js', 'React', 'Express'],
-    githubLink: 'https://github.com/',
-    liveLink: 'https://example.com/filemanager',
-    category: 'Cloud Computing',
+    title: 'HR - Analysis Dashbooard',
+    description: 'A machine learning algorithm that provides personalized recommendations based on user behavior.',
+    image: '/image.png',
+    technologies: ['Tableau','Data Visualization','HR Analytics'],
+    githubLink: 'https://github.com/saiteja1245/HR-Analysis-Dashboard',
+    category: 'Data Visualization',
   },
+  
+  {
+    id: 5,
+    title: 'Quizz App',
+    description: 'A secure cloud storage solution with advanced file management capabilities.',
+    image: '/Quiz App.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    liveLink: 'https://quizz-app-lyart.vercel.app/',
+    category: 'Web Development',
+  },
+  {
+    id: 6,
+    title: 'Credit Score Prediction',
+    description: 'A secure cloud storage solution with advanced file management capabilities.',
+    image: '/Payment Behaviour.png',
+    technologies: ['R', 'Machine Learning', 'Predictive Modelling'],
+    githubLink: 'saiteja1245/Credit-Score-Prediction',
+    category: 'Machine Learning',
+  },
+ 
 ];
 
-const categories = ['All', 'Web Development', 'Data Visualization', 'Artificial Intelligence', 'Cloud Computing'];
+const categories = ['All', 'Web Development', 'Data Visualization', 'Machine Learning'];
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -144,7 +163,7 @@ const Projects = () => {
         
         <div className="text-center mt-12">
           <a 
-            href="https://github.com/" 
+            href="https://github.com/saiteja1245?tab=repositories" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-outline inline-flex items-center gap-2"

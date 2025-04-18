@@ -16,10 +16,10 @@ const skillCategories: SkillCategory[] = [
   {
     name: 'Programming Languages',
     skills: [
-      { name: 'Python', level: 90 },
-      { name: 'JavaScript', level: 85 },
+      { name: 'Python', level: 85 },
+      { name: 'JavaScript', level: 90 },
       { name: 'Java', level: 80 },
-      { name: 'C++', level: 75 },
+      { name: 'C++', level: 90 },
     ],
   },
   {
@@ -27,16 +27,13 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: 'HTML5', level: 95 },
       { name: 'CSS3', level: 90 },
-      { name: 'Next.js', level: 85 },
-      { name: 'React', level: 80 },
+      { name: 'React.js', level: 80 },
     ],
   },
   {
     name: 'Backend',
     skills: [
       { name: 'Node.js', level: 85 },
-      { name: 'Express.js', level: 80 },
-      { name: 'PHP', level: 75 },
     ],
   },
   {
@@ -44,16 +41,19 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: 'MySQL', level: 85 },
       { name: 'NoSQL', level: 70 },
+      { name: 'MongoDB', level: 70 },
     ],
   },
   {
-    name: 'Cloud & DevOps',
+    name: 'Analytics Tools',
     skills: [
-      { name: 'AWS', level: 80 },
-      { name: 'Docker', level: 75 },
-      { name: 'CI/CD', level: 70 },
+      { name: 'Excel', level: 80 },
+      { name: 'Tableau', level: 90 },
+      { name: 'R', level: 85 },
+      { name: 'Predictive Analytics', level: 80 },
     ],
   },
+
 ];
 
 const Skills = () => {
@@ -63,6 +63,9 @@ const Skills = () => {
     <section id="skills" className="py-20 bg-gray-50">
       <div className="section-container">
         <h2 className="section-title">Skills & Technologies</h2>
+        <p className="text-gray-600 max-w-2xl mt-4">
+            I've worked with a variety of technologies across the Data Science & Full stack development spectrum.
+          </p><br></br>
         
         <div className="flex flex-wrap gap-4 mb-10 justify-center md:justify-start">
           {skillCategories.map((category) => (
@@ -106,7 +109,7 @@ const Skills = () => {
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <h3 className="text-xl font-bold text-portfolio-dark mb-4">Other Skills</h3>
             <div className="flex flex-wrap gap-2">
-              {['Git', 'UI/UX Design', 'RESTful API', 'Agile/Scrum', 'Machine Learning', 'Data Structures', 'Algorithms', 'Problem Solving', 'Team Leadership'].map((skill) => (
+              {['Git', 'Financial Markets', 'Machine Learning', 'Data Structures', 'Algorithms', 'Problem Solving', 'Team Leadership'].map((skill) => (
                 <span 
                   key={skill} 
                   className="bg-portfolio-light text-portfolio-primary px-3 py-1 rounded-full text-sm"

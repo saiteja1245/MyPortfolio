@@ -12,40 +12,23 @@ type Achievement = {
 const achievements: Achievement[] = [
   {
     id: 1,
-    title: "Top 10% Dean's List",
+    title: "🏅 Academic Excellence",
     description: "Recognized for academic excellence, securing a position in the top 10% of the Dean's List.",
     icon: 'trophy',
   },
   {
     id: 2,
-    title: "3rd Place – HackOverflow 5.0 (NIT Durgapur)",
-    description: "Secured 3rd position at HackOverflow 5.0 hackathon organized by NIT Durgapur for innovative solution development.",
+    title: "Secured 5-Star rating in Problem Solving",
+    description: "Earned a 5⭐ HackerRank badge in Problem Solving through advanced DSA challenges using C++.",
     icon: 'medal',
   },
   {
     id: 3,
-    title: "Appreciation Letter – Defence Minister Rajnath Singh",
-    description: "Received a personal appreciation letter from Defence Minister Rajnath Singh for technological contributions.",
+    title: "3rd Place – Web Ka Hackathon",
+    description: "Secured 3rd position at Web Ka Hackathon Organized by Team7 for innovative solution development.",
     icon: 'trophy',
   },
-  {
-    id: 4,
-    title: "Open Source Contributor",
-    description: "Active contributor to various open-source projects with multiple accepted pull requests.",
-    icon: 'check',
-  },
-  {
-    id: 5,
-    title: "Technical Paper Publication",
-    description: "Published a technical paper on AI applications in healthcare in a recognized academic journal.",
-    icon: 'check',
-  },
-  {
-    id: 6,
-    title: "Webinar Host",
-    description: "Conducted multiple technical webinars reaching over 5,000 participants collectively.",
-    icon: 'check',
-  },
+
 ];
 
 const Achievements = () => {

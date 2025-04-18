@@ -1,5 +1,4 @@
-
-import { Github, Linkedin, Youtube } from 'lucide-react';
+import { Facebook, Github, Linkedin, Twitter, Youtube } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -11,16 +10,15 @@ const Hero = () => {
               Hello, I'm
             </h2>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-portfolio-dark mb-4">
-              Aarav Mehta
+              Sai Teja Bobbali
             </h1>
             <h3 className="text-xl md:text-2xl font-medium text-portfolio-gray mb-6">
-              B.Tech Computer Science Student & <span className="text-portfolio-primary">Full-Stack Developer</span>
+              B.Tech CSE Student & <span className="text-portfolio-primary">Aspiring Data Analyst</span>
             </h3>
             <p className="text-gray-600 mb-8 max-w-xl">
-              Passionate about building scalable applications with expertise in frontend and backend technologies. 
-              Specializing in AI, Cloud Computing, and creating impactful digital solutions.
+              Passionate about building scalable and intelligent applications. Skilled in front-end technologies and data analytics with experience in React, Node.js, and MongoDB. Strong foundation in AI and Cloud Computing. Always eager to solve problems and deliver impactful digital solutions.
             </p>
-            
+
             <div className="flex flex-wrap gap-4">
               <a href="#contact" className="btn-primary flex items-center gap-2">
                 Contact Me
@@ -29,10 +27,10 @@ const Hero = () => {
                 View My Work
               </a>
             </div>
-            
+
             <div className="flex mt-8 gap-4">
               <a 
-                href="https://linkedin.com/" 
+                href="https://linkedin.com/in/saiteja-bobbali" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-portfolio-gray hover:text-portfolio-primary transition-colors"
@@ -41,7 +39,7 @@ const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a 
-                href="https://github.com/" 
+                href="https://github.com/saiteja1245" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-portfolio-gray hover:text-portfolio-primary transition-colors"
@@ -50,22 +48,31 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a 
-                href="https://youtube.com/@lifewidabi" 
+                href="https://twitter.com/saiteja_bobbali" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-portfolio-gray hover:text-portfolio-primary transition-colors"
-                aria-label="YouTube"
+                aria-label="Twitter"
               >
-                <Youtube size={24} />
+                <Twitter size={24} />
+              </a>
+              <a 
+                href="https://facebook.com/bobbali.saiteja.1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-portfolio-gray hover:text-portfolio-primary transition-colors"
+                aria-label="Twitter"
+              >
+                <Facebook size={24} />
               </a>
             </div>
           </div>
-          
+
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-xl animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <div className="absolute inset-0 bg-gradient-to-br from-portfolio-primary to-portfolio-secondary opacity-90"></div>
               <div className="absolute inset-0 flex items-center justify-center text-white font-display text-2xl">
-                AM
+                <img src = "/photo.jpg"></img>
               </div>
             </div>
           </div>

@@ -5,10 +5,8 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
-import Experience from '@/components/Experience';
 import Certifications from '@/components/Certifications';
 import Achievements from '@/components/Achievements';
-import BlogYoutube from '@/components/BlogYoutube';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
@@ -16,7 +14,7 @@ import ScrollToTop from '@/components/ScrollToTop';
 const Index = () => {
   useEffect(() => {
     // Update page title
-    document.title = "Aarav Mehta - Full-Stack Developer";
+    document.title = "ABOUT ME | My Site";
   }, []);
 
   return (
@@ -26,10 +24,8 @@ const Index = () => {
       <About />
       <Skills />
       <Projects />
-      <Experience />
       <Certifications />
       <Achievements />
-      <BlogYoutube />
       <Contact />
       <Footer />
       <ScrollToTop />

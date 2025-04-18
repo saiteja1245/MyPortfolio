@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MapPin, Calendar } from 'lucide-react';
 
 const About = () => {
@@ -10,13 +9,12 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div>
             <p className="text-gray-700 mb-6">
-              I'm Aarav Mehta, a B.Tech Computer Science student at Lovely Professional University with a passion for building innovative, scalable applications. I specialize in Full-Stack Development, Artificial Intelligence, and Cloud Computing.
+            I'm Sai Teja Bobbali, a B.Tech Computer Science student at Lovely Professional University with a strong interest in Data Science, Machine Learning, and Cloud Computing. I enjoy extracting insights from data, building predictive models, and deploying scalable solutions to solve real-world problems.            </p>
+            <p className="text-gray-700 mb-6">
+              I have hands-on experience in developing responsive web applications and working with modern technologies across both frontend and backend stacks. My academic journey and project work have equipped me with a deep understanding of software development practices and emerging technologies.
             </p>
             <p className="text-gray-700 mb-6">
-              My journey in technology began with a curiosity to understand how digital solutions can solve real-world problems. Today, I leverage my skills to create efficient and elegant applications that provide seamless user experiences.
-            </p>
-            <p className="text-gray-700 mb-6">
-              When I'm not coding, I enjoy sharing my knowledge through my blog and YouTube channel, where I cover topics ranging from programming tutorials to tech industry insights.
+              I am eager to contribute to innovative tech teams, collaborate on impactful projects, and continuously learn to stay at the forefront of the industry.
             </p>
             
             <div className="mt-8">
@@ -32,8 +30,8 @@ const About = () => {
                 <Mail className="text-portfolio-primary mt-1 flex-shrink-0" size={20} />
                 <div>
                   <p className="font-medium text-portfolio-dark">Email</p>
-                  <a href="mailto:contact@aaravmehta.com" className="text-gray-600 hover:text-portfolio-primary">
-                    contact@aaravmehta.com
+                  <a href="mailto:saiteja@example.com" className="text-gray-600 hover:text-portfolio-primary">
+                    saiteja.bobbalii@gmail.com
                   </a>
                 </div>
               </div>
@@ -42,8 +40,8 @@ const About = () => {
                 <Phone className="text-portfolio-primary mt-1 flex-shrink-0" size={20} />
                 <div>
                   <p className="font-medium text-portfolio-dark">Phone</p>
-                  <a href="tel:+919876543210" className="text-gray-600 hover:text-portfolio-primary">
-                    +91 98765 43210
+                  <a href="tel:+919123456789" className="text-gray-600 hover:text-portfolio-primary">
+                    +91 8074218957
                   </a>
                 </div>
               </div>
