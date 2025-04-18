@@ -17,7 +17,7 @@ const certifications: Certification[] = [
     issuer: 'GeeksForGeeks',
     date: 'July 2024',
     description: 'In-depth training in Full Stack Development, covering both front-end with React.js and back-end with Node.js, including best practices and advanced techniques.',
-    credential: 'https://example.com/cert1',
+    credential: '/Screenshot 2024-08-30 223736.png',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const certifications: Certification[] = [
     issuer: 'Programming Pathshala',
     date: 'June 2024',
     description: 'Comprehensive preparation for technical interviews covering data structures, algorithms, and system design.',
-    credential: 'https://example.com/cert2',
+    credential: '/Competitive _Programming.png',
   },
   {
     id: 3,
