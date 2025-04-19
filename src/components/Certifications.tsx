@@ -35,6 +35,14 @@ const certifications: Certification[] = [
     description: 'Comprehensive Cloud Computing course covering everything from foundational concepts to advanced cloud architecture and deployment strategies.',
     credential: 'https://example.com/cert3',
   },
+   {
+    id: 4,
+    title: 'Competitive Programming',
+    issuer: 'Cipher Schools',
+    date: 'Febraury 2025',
+    description: 'In-depth Competitive Programming course encompassing core data structures, algorithms, and advanced problem-solving strategies for coding competitions and technical interviews.',
+    credential: '/Competitive _Programming.png',
+  },
 ];
 
 const Certifications = () => {
