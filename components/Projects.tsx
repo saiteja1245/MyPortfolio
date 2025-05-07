@@ -21,13 +21,13 @@ const projects: Project[] = [
     description: 'A seamless platform for ordering and delivery of Haldiram\'s food, with user-friendly features for easy browsing and transaction management.',
     image: '/Food delivery App.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node', 'MongoDB'],
-    liveLink: 'https://example.com/payben',
+    liveLink: 'https://food-delivery-app-xcuy.vercel.app/',
     category: 'Web Development',
   },
   {
     id: 2,
     title: 'Weather - Forecasting App',
-    description: 'Interactive and shareable dashboards for data visualization and analysis.',
+    description: 'Developed a Weather Forecasting App with real-time updates and interactive, shareable dashboards for visualizing and analyzing weather data.',
     image: '/weather.png',
     technologies: ['HTML', 'CSS', 'JavaScript','React','Tailwind CSS'],
     liveLink: 'https://weather-dashboard-website.vercel.app/',
@@ -36,7 +36,7 @@ const projects: Project[] = [
   {
     id: 3,
     title: 'Flash Shop - Ecommerce Website',
-    description: 'A secure cloud storage solution with advanced file management capabilities.',
+    description: 'Developed Flash Shop, a mobile eCommerce app with intuitive UI, real-time product updates, cart management, and secure checkout functionality.',
     image: '/Flash Shop.png',
     technologies: ['HTML', 'CSS3', 'React'],
     liveLink: 'https://flash-shop-ecommerce-website.vercel.app/',
@@ -45,7 +45,7 @@ const projects: Project[] = [
   {
     id: 4,
     title: 'HR - Analysis Dashbooard',
-    description: 'A machine learning algorithm that provides personalized recommendations based on user behavior.',
+    description: 'Implemented a machine learning algorithm to deliver personalized employee insights and recommendations based on behavioral and performance data.',
     image: '/image.png',
     technologies: ['Tableau','Data Visualization','HR Analytics'],
     githubLink: 'https://github.com/saiteja1245/HR-Analysis-Dashboard',
@@ -55,7 +55,7 @@ const projects: Project[] = [
   {
     id: 5,
     title: 'Quizz App',
-    description: 'A secure cloud storage solution with advanced file management capabilities.',
+    description: 'Developed an interactive quiz app using HTML, CSS, and JavaScript, featuring dynamic question selection, real-time scoring, and a user-friendly interface.',
     image: '/Quiz App.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://quizz-app-lyart.vercel.app/',
@@ -64,7 +64,7 @@ const projects: Project[] = [
   {
     id: 6,
     title: 'Credit Score Prediction',
-    description: 'A secure cloud storage solution with advanced file management capabilities.',
+    description: 'Built a machine learning model to predict credit scores based on financial data, leveraging classification algorithms for accurate risk assessment.',
     image: '/Payment Behaviour.png',
     technologies: ['R', 'Machine Learning', 'Predictive Modelling'],
     githubLink: 'saiteja1245/Credit-Score-Prediction',

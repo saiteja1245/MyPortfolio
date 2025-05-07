@@ -17,7 +17,7 @@ const certifications: Certification[] = [
     issuer: 'GeeksForGeeks',
     date: 'July 2024',
     description: 'In-depth training in Full Stack Development, covering both front-end with React.js and back-end with Node.js, including best practices and advanced techniques.',
-    credential: 'https://example.com/cert1',
+    credential: '/Screenshot 2024-08-30 223736.png',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const certifications: Certification[] = [
     issuer: 'Programming Pathshala',
     date: 'June 2024',
     description: 'Comprehensive preparation for technical interviews covering data structures, algorithms, and system design.',
-    credential: 'https://example.com/cert2',
+    credential: '/Sai Teja Bobbali.jpg',
   },
   {
     id: 3,
@@ -33,7 +33,15 @@ const certifications: Certification[] = [
     issuer: 'NPTEL',
     date: 'October 2024',
     description: 'Comprehensive Cloud Computing course covering everything from foundational concepts to advanced cloud architecture and deployment strategies.',
-    credential: 'https://example.com/cert3',
+    credential: '/Cloud Computing (2).pdf',
+  },
+  {
+    id: 4,
+    title: 'Competitive Programming',
+    issuer: 'Cipher Schools',
+    date: 'Febraury 2025',
+    description: 'In-depth Competitive Programming course encompassing core data structures, algorithms, and advanced problem-solving strategies for coding competitions and technical interviews.',
+    credential: '/Competitive _Programming.png',
   },
 ];
 

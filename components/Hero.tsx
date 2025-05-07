@@ -72,7 +72,7 @@ const Hero = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-xl animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <div className="absolute inset-0 bg-gradient-to-br from-portfolio-primary to-portfolio-secondary opacity-90"></div>
               <div className="absolute inset-0 flex items-center justify-center text-white font-display text-2xl">
-                
+                <img src = "/photo1.jpg"></img>
               </div>
             </div>
           </div>
